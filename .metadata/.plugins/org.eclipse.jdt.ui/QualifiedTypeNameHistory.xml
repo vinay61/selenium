@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver"/>
+<fullyQualifiedTypeName name="com.qmetry.qaf.automation.ui.WebDriverTestBase"/>
+<fullyQualifiedTypeName name="com.hackathon.pages.HackathonPages"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.Alert"/>
+</qualifiedTypeNameHistroy>

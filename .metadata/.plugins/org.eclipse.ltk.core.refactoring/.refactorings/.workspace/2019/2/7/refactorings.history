@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Quantum-Starter-Kit-master&apos; to &apos;Hackathon&apos;" description="Rename resource &apos;Quantum-Starter-Kit-master&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Quantum-Starter-Kit-master" name="Hackathon" stamp="1549859636933" updateReferences="true"/>
+</session>

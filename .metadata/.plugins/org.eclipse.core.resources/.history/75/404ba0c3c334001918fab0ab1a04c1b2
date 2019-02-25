@@ -1,0 +1,14 @@
+#locator repository for search page
+search.text.box = {\"locator\":\"name=q\",\"desc\":\"Search Text Box\"}
+#The syntax used below is called alternate locator strategy. The element will be searched using the first locator and if there is no element then the second locator will be tried.
+search.button=["xpath=//input[@aria-label='Google Search']","xpath=//button[@aria-label='Google Search']"]//div[@class='jumbotron ng-scope']//h2
+btn.clickhere=xpath=//a[@role='button']
+hdr.registered=xpath=//table[@class='table shipwrecktable']//h3
+btn.addEmployee=xpath=//a[@class='btn-primary btn-lg nodecoration']
+btn.addEmployee=linkText=Add New Employee
+txt.EmpID=xpath=//input[@id='id']
+txt.Empname=xpath=//input[@id='name']
+txt.EmpProject=xpath=//input[@id='project']//input[@id='project']
+txt.phoneNo=xpath=//input[@id='phoneno']
+txt.location=xpath=//input[@id='location']
+btn.Save = xpath= //input[@value='Save']

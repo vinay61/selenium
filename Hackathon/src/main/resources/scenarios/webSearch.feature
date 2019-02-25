@@ -1,0 +1,41 @@
+@Web
+Feature: Hackathon
+
+  @HackathonScript1
+  Scenario Outline: Launch the Hackathon Page
+  Given Launch Hackathon Page with "<url>"
+  Then Click on Click Here button
+  Then verify that Registered Employees Page is displayed
+
+
+Examples:
+      | recId | url                                  |
+      | 1     | http://3.87.26.156:5002/index.html#/ |
+  
+  
+  @HackathonScript2
+  Scenario Outline: Add Employees in Hackathon
+  Given Launch Hackathon Page with "<url>"
+  Then Click on Click Here button
+  Then Click on Add Employee button
+  Then Enter details in Employee Registration Page "<EmpID>", "<Name>", "<Project>", "<PhoneNumber>", "<location>" 
+  #Then Save the form
+
+Examples:
+      | recId |  url                              |EmpID      | Name       |Project    |PhoneNumber   |location |   
+      | 1     | http://3.87.26.156:5002/index.html#/|  123456   |Employee1   | Automation| 9999999999   | Hyderabad| 
+  
+  
+  
+  @HackathonScript3
+  Scenario Outline: Validate Error message in hackathon
+  Given Launch Hackathon Page with "<url>"
+  Then Click on Click Here button
+  Then Click on Add Employee button
+  Then Enter details and validate Error message "<EmpID2>", "<Name2>", "<Project2>", "<PhoneNumber2>" 
+  #Then Save the form
+
+Examples:
+      | recId |  url                              |EmpID2      | Name2       |Project2    |PhoneNumber2  |
+     | 1     | http://3.87.26.156:5002/index.html#/|  123456   |Employee1   | Automation| abcdef   |  
+ 
